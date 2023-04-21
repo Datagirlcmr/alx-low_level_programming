@@ -5,13 +5,19 @@
     */
 int main(void)
 {
-	charalphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	char c;
+	char d;
 
-	for (i = 0; i < 52; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(alphabet[i]);
+		putchar(c);
 	}
-	putchar("\n");
+
+	for (d = 'A'; d <= 'Z'; d++)
+	{
+		putchar(d);
+	}
+
+	putchar('\n');
 	return (0);
 }
