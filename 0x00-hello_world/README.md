@@ -1,1 +1,1 @@
-My first ever experimentation with the c programming language
+0x00. C - Hello, World
