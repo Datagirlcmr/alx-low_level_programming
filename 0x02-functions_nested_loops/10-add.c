@@ -1,3 +1,4 @@
+#include "main.h"
 /**
   * add - Entry point.
   * @i: arguments that is added

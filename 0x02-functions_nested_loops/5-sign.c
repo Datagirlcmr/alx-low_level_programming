@@ -1,3 +1,4 @@
+#include "main.h"
 /**
   * print_sign - Entry point.
   * @n: argument that is checked
