@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 /**
   * print_last_digit - Entry point.
   * @a: argument that is checked
@@ -7,11 +7,12 @@
   */
 int print_last_digit(int a)
 {
-if (a >= 0 && a <= 9)
-return (a);
+	int lastdigit = (a % 10);
 
-else
-{
-return (_abs(a % 10));
-}
+	if (lastdigit < 0)
+		lastdigit *= -1;
+
+	_putchar (lastdigit + '0');
+
+	return (0);
 }
