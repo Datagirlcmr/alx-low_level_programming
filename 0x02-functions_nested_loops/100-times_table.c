@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_times_table - Entry point.
  * @n: argument that is checked
