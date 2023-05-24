@@ -3,8 +3,9 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- * File: main
- *
+ * File -  main
+ * @name: input
+ * @f: input
  * Desc: header file
 **/
 void print_name(char *name, void (*f)(char *));
